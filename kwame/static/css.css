@@ -1,0 +1,72 @@
+body{
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+html,
+body {
+	height: 100%;
+}
+h1{
+  text-align: center;
+  color: rgb(66, 10, 10);
+  font-family: cursive;
+  font-weight: 600;
+  padding-bottom: 60px;
+  margin-top: 30px;
+}
+
+a:link, a:visited {
+  background-color: #1d1d1d;
+  color: rgb(255, 255, 255);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  
+}
+
+a:hover, a:active {
+  background-color: rgb(21, 0, 56);
+}
+
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);}
+
+  @media only screen and (min-device-width: 300px) and (max-device-width: 1024px) and (orientation:portrait) {
+  div.container{
+    top: 15%;
+    left: 50%} }
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+	th {
+		background-color: #55608f;
+	}
+

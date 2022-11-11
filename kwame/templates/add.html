@@ -1,0 +1,31 @@
+{%load static %}
+
+<html>
+<head>
+<link rel ="stylesheet" href="{%static 'mycss.css'%}">
+</head>
+<body>
+
+<h1> <u>WELCOME TO MEMBERSHIP REGISTRATION PAGE</u></h1>
+
+
+
+
+
+  <form action="addrecord/" method="POST">
+    {% csrf_token %}
+    <div class="container">
+      <form >
+        <label style="font-size:18px; font-family:arial; font-weight:600; color:tomato" for="fname">First Name</label>
+        <input type="text" id="fname" name="first">
+  
+        <label style="font-size:18px; font-family:arial; font-weight:600; color:tomato" for="lname">Last Name</label>
+        <input type="text" id="lname" name="last" >
+        
+        <input style="font-size:18px; font-family:arial; font-weight:600; color:tomato" type="submit" value="Submit">
+      </form>
+    </div>
+
+
+</body>
+</html>
